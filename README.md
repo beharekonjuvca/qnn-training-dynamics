@@ -1,4 +1,4 @@
-# QNN Training Dynamics
+# QNN Training
 
 A study of how **depth**, **data re-uploading**, and **entanglement topology** affect training behavior in variational quantum neural networks (QNNs), with reproducible runs, aggregated statistics, and plots.
 
