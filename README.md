@@ -52,15 +52,17 @@ This is implemented directly in `circuits.py` via `entangle(..., pattern="chain"
 
 ## Repository structure
 
+```text
 qnn-training-dynamics/
-├── circuits.py # angle encoding, trainable layers, entanglement patterns, QNode factory
-├── datasets.py # moons/circles generators + scaling to [0, π]
-├── train.py # training loop, logging, aggregation to CSV + JSON curves
-├── experiments.py # experiment groups A/B/C definitions + runner
-├── res_plot.py # reads results/agg.csv + curves JSONs and generates figures
-├── results/ # runs.csv, agg.csv, curves/\*.json (generated)
-├── figures/ # exported plots (generated)
-└── plots/ # (optional/extra) local plot outputs
+├── circuits.py        # angle encoding, trainable layers, entanglement patterns, QNode factory
+├── datasets.py        # moons/circles generators + scaling to [0, π]
+├── train.py           # training loop, logging, aggregation to CSV + JSON curves
+├── experiments.py     # experiment groups A/B/C definitions + runner
+├── res_plot.py        # reads results/agg.csv + curves JSONs and generates figures
+├── results/           # runs.csv, agg.csv, curves/*.json (generated)
+├── figures/           # exported plots (generated)
+└── plots/             # optional local plot outputs
+```
 
 # Setup & Reproducibility
 
