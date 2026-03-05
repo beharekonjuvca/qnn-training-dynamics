@@ -1,5 +1,7 @@
 # QNN Training
 
+This repository contains the experimental framework and results developed as part of my Bachelor's thesis titled **"Behavior of Quantum Neural Networks During Training."**
+
 A study of how **depth**, **data re-uploading**, and **entanglement topology** affect training behavior in variational quantum neural networks (QNNs), with reproducible runs, aggregated statistics, and plots.
 
 This repository implements a small experimental framework using **PennyLane** variational circuits and classical toy datasets to measure:
@@ -153,3 +155,7 @@ Tested with:
 ```
 Python 3.10+
 ```
+
+## License
+
+This project is licensed under the MIT License.
